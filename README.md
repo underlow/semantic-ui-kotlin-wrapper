@@ -8,11 +8,11 @@ or pull requests.
 ***Usage*** 
 
 - Build 
--  by `gradle build` 
--  Add jar file to your project
+  -  by `gradle build` 
+  -  Add jar file to your project
 - OR 
--  add [https://jitpack.io](https://jitpack.io) to list of maven repositories (see docs on [https://jitpack.io](https://jitpack.io)
--  add `compile "com.github.underlow:semantic-ui-kotlin-wrapper:master-SNAPSHOT"` to `build.gradle`
+  - add [https://jitpack.io](https://jitpack.io) to list of maven repositories (see docs on [https://jitpack.io](https://jitpack.io)
+  - add `compile "com.github.underlow:semantic-ui-kotlin-wrapper:master-SNAPSHOT"` to `build.gradle`
 
 - Add semantic ui react npm package, usually that means add **"semantic-ui-react": "^0.82.1"** to **package.json**
 - Try somthing like 
