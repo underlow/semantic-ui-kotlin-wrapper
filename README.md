@@ -10,7 +10,7 @@ or pull requests.
 - Build 
   -  by `gradle build` 
   -  Add jar file to your project
-- OR 
+- OR use maven
   - add [https://jitpack.io](https://jitpack.io) to list of maven repositories (see docs on [https://jitpack.io](https://jitpack.io)
   - add `compile "com.github.underlow:semantic-ui-kotlin-wrapper:master-SNAPSHOT"` to `build.gradle`
 
