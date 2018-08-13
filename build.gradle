@@ -1,0 +1,66 @@
+//apply plugin: 'kotlin-platform-js'
+apply plugin: "kotlin2js"
+//apply plugin: "kotlin-dce-js"
+apply plugin: "com.moowork.node"
+
+buildscript {
+
+    ext {
+        gradle_node_plugin_version = '1.2.0'
+        kotlin_version = '1.2.60'
+        wrapper_react_version='16.4.1-pre.34-kotlin-1.2.51'
+    }
+
+    repositories {
+        maven { url "https://plugins.gradle.org/m2/" }
+        maven { url "http://dl.bintray.com/kotlin/kotlin-dev" }
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.moowork.gradle:gradle-node-plugin:$gradle_node_plugin_version"
+    }
+}
+
+ext {
+    kotlinx_html_version = '0.6.11'
+    wrapper_react_version='16.4.1-pre.34-kotlin-1.2.51'
+    wrapper_extentions_version = '1.0.1-pre.34-kotlin-1.2.51'
+    wrapper_mocha_version = '3.0.1-pre.34-kotlin-1.2.51'
+}
+
+//node {
+//    download = true
+//}
+task sourcesJar(type: Jar) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+artifacts {
+    archives sourcesJar
+}
+repositories {
+    maven { url "http://dl.bintray.com/kotlin/kotlin-dev" }
+    maven { url "http://dl.bintray.com/kotlin/kotlin-js-wrappers/" }
+    maven { url  "http://dl.bintray.com/kotlin/kotlinx.html/" }
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.jetbrains:kotlin-react:$wrapper_react_version"
+    compile "org.jetbrains:kotlin-react-dom:$wrapper_react_version"
+
+    compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
+    compile "org.jetbrains.kotlin:kotlin-test-js:$kotlin_version"
+
+}
+
+compileKotlin2Js {
+    kotlinOptions {
+        sourceMap = true
+        sourceMapEmbedSources = "always"
+        moduleKind = "commonjs"
+//        metaInfo = false
+    }
+}
