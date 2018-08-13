@@ -9,6 +9,8 @@ or pull requests.
 
 - Build by `gradle build` 
 - Add jar file to your project
+- OR add `compile "com.github.underlow:semantic-ui-kotlin-wrapper:master-SNAPSHOT"` to `build.gradle`
+
 - Add semantic ui react npm package, usually that means add **"semantic-ui-react": "^0.82.1"** to **package.json**
 - Try somthing like 
 ```kotlin
