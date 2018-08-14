@@ -1,7 +1,7 @@
 apply plugin: "kotlin2js"
 apply plugin: "com.moowork.node"
 
-version '0.0.1-SNAPSHOT'
+version '0.0.2-SNAPSHOT'
 
 buildscript {
 
