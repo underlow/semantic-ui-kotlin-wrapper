@@ -1,7 +1,7 @@
-//apply plugin: 'kotlin-platform-js'
 apply plugin: "kotlin2js"
-//apply plugin: "kotlin-dce-js"
 apply plugin: "com.moowork.node"
+
+version '0.0.1-SNAPSHOT'
 
 buildscript {
 
@@ -29,9 +29,6 @@ ext {
     wrapper_mocha_version = '3.0.1-pre.34-kotlin-1.2.51'
 }
 
-//node {
-//    download = true
-//}
 task sourcesJar(type: Jar) {
     classifier = 'sources'
     from sourceSets.main.allSource
@@ -61,6 +58,5 @@ compileKotlin2Js {
         sourceMap = true
         sourceMapEmbedSources = "always"
         moduleKind = "commonjs"
-//        metaInfo = false
     }
 }
