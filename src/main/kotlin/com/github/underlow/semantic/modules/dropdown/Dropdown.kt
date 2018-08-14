@@ -1,4 +1,4 @@
-@file:JsModule("semantic-ui-react/dist/commonjs/modules/Dropdown")
+@file:JsModule("semantic-ui-react/dist/commonjs/modules/Dropdown/Dropdown")
 
 package com.github.underlow.semantic.modules.dropdown
 
