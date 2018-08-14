@@ -1,5 +1,7 @@
 package com.github.underlow.semantic
 
+import react.ReactElement
+
 
 //typealias SemanticShorthandCollection<T> = Array<SemanticShorthandItem<T>>;
 //typealias SemanticShorthandContent = ReactElement;
@@ -20,3 +22,5 @@ typealias SemanticWIDTHSSTRING = String // '1' | '2' | '3' | '4' | '5' | '6' | '
 
 typealias SemanticWIDTHS = Any // SemanticWIDTHSNUMBER | SemanticWIDTHSSTRING;
 typealias IconSizeProp = String //'mini' | 'tiny' | 'small' | 'large' | 'big' | 'huge' | 'massive'
+
+typealias SemanticShorthandContent = ReactElement
