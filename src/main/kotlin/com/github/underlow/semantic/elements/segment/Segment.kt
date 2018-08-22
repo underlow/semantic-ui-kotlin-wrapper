@@ -1,4 +1,4 @@
-@file:JsModule("semantic-ui-react/dist/commonjs/elements/Segment")
+@file:JsModule("semantic-ui-react/dist/commonjs/elements/Segment/Segment")
 
 package com.github.underlow.semantic.elements.segment
 

@@ -24,3 +24,5 @@ typealias SemanticWIDTHS = Any // SemanticWIDTHSNUMBER | SemanticWIDTHSSTRING;
 typealias IconSizeProp = String //'mini' | 'tiny' | 'small' | 'large' | 'big' | 'huge' | 'massive'
 
 typealias SemanticShorthandContent = ReactElement
+
+typealias SegmentSizeProp = String // 'mini' | 'tiny' | 'small' | 'large' | 'big' | 'huge' | 'massive'
