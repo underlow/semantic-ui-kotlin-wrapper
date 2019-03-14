@@ -1,4 +1,4 @@
-@file:JsModule("semantic-ui-react/dist/commonjs/elements/ListList")
+@file:JsModule("semantic-ui-react/dist/commonjs/elements/List/ListList")
 
 package com.github.underlow.semantic.elements.list
 
