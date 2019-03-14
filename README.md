@@ -2,7 +2,7 @@
 
 Kotlin wrapper library to use [Semantic UI React](https://react.semantic-ui.com) in Kotlin JS project.
 
-This is not more than Proof of Concept. Be careful using it in production. If you have some thoughts feel free to submit tickets or pull requests. 
+This is Proof of Concept. Be careful using it. Feel free to submit tickets or pull requests. 
 
 ***Usage*** 
 
