@@ -33,6 +33,8 @@ external interface SegmentProps : RProps {
     var tertiary: Boolean?
     var textAlign: SemanticTEXTALIGNMENTS?
     var vertical: Boolean?
+    var placeholder: Boolean
+
 }
 
 external interface SegmentComponent : RClass<SegmentProps>
