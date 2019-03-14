@@ -3,7 +3,7 @@ package com.github.underlow.semantic
 import react.ReactElement
 
 
-//typealias SemanticShorthandCollection<T> = Array<SemanticShorthandItem<T>>;
+typealias SemanticShorthandCollection<T> = Array<SemanticShorthandItem<T>>;
 //typealias SemanticShorthandContent = ReactElement;
 typealias SemanticShorthandItem<T> = Any // ReactElement | T;
 

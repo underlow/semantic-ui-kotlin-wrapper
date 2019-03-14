@@ -19,8 +19,8 @@ external interface GridRowProps : RProps {
     var only: String? // typealias GridOnlyProp = String //| 'computer' | 'largeScreen' | 'mobile' | 'tablet mobile' | 'tablet' | 'widescreen';
     var reversed: String? //export type GridReversedProp = string | 'computer' | 'computer vertically' | 'mobile' | 'mobile vertically' | 'tablet' | 'tablet vertically';
     var stretched: Boolean?
-//    var textAlign: SemanticTEXTALIGNMENTS? get() = definedExternally; set(value) = definedExternally
-//    var verticalAlign: SemanticVERTICALALIGNMENTS? get() = definedExternally; set(value) = definedExternally
+//    var textAlign: SemanticTEXTALIGNMENTS?
+//    var verticalAlign: SemanticVERTICALALIGNMENTS?
 }
 
 @JsName("default")

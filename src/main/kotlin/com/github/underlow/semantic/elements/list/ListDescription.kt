@@ -1,13 +1,13 @@
-@file:JsModule("semantic-ui-react/dist/commonjs/modules/Modal/ModalHeader")
+@file:JsModule("semantic-ui-react/dist/commonjs/elements/List")
 
-package com.github.underlow.semantic.modules.modal
+package com.github.underlow.semantic.elements.list
 
 import com.github.underlow.semantic.SemanticShorthandContent
 import react.RClass
 import react.RProps
 import react.ReactElement
 
-external interface ModalHeaderProps : RProps {
+external interface ListDescriptionProps : RProps {
     var `as`: Any?
     var children: ReactElement?
     var className: String?
@@ -15,4 +15,4 @@ external interface ModalHeaderProps : RProps {
 }
 
 @JsName("default")
-external var ModalHeader: RClass<ModalHeaderProps> = definedExternally
+external var ListDescription: RClass<ListDescriptionProps> = definedExternally

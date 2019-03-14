@@ -14,7 +14,7 @@ external interface DropdownHeaderProps : RProps {
     var children: ReactElement?
     var className: String?
     var content: SemanticShorthandContent?
-    var icon: SemanticShorthandItem<IconProps>? get() = definedExternally; set(value) = definedExternally
+    var icon: SemanticShorthandItem<IconProps>?
 }
 
 @JsName("default")

@@ -22,7 +22,7 @@ external interface LabelProps : RProps {
     var color: SemanticCOLORS?
     var content: ReactElement?
     var corner: dynamic /* Boolean | String /* "left" */ | String /* "right" */ */
-    //        var detail: SemanticShorthandItem<LabelDetailProps>? get() = definedExternally; set(value) = definedExternally
+    //        var detail: SemanticShorthandItem<LabelDetailProps>?
     var empty: Any?
     var floating: Boolean?
     var horizontal: Boolean?
