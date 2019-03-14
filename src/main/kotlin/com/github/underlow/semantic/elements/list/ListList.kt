@@ -8,12 +8,6 @@ import react.RProps
 import react.ReactElement
 
 external interface ListListProps : RProps {
-    @nativeGetter
-    operator fun get(key: String): Any?
-
-    @nativeSetter
-    operator fun set(key: String, value: Any)
-
     var `as`: Any?
     var children: ReactElement?
     var className: String?
