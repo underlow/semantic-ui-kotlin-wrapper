@@ -1,5 +1,8 @@
+@file:Suppress("unused")
+
 package com.github.underlow.semantic
 
+import com.github.underlow.semantic.modules.tab.TabPanesProps
 import react.ReactElement
 
 
@@ -49,4 +52,11 @@ enum class SemanticIconSize {
 @Suppress("EnumEntryName")
 enum class SemanticSegmentSize {
     mini, tiny, small, large, big, huge, massive
+}
+
+@Suppress("UNCHECKED_CAST_TO_EXTERNAL_INTERFACE")
+fun buildTab(block: TabPanesProps.() -> Unit): TabPanesProps {
+    val tbp = js("{}") as TabPanesProps
+    tbp.block()
+    return tbp
 }
