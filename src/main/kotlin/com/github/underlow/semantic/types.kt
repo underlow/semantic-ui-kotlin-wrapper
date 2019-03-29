@@ -35,3 +35,18 @@ typealias SegmentSizeProp = String // 'mini' | 'tiny' | 'small' | 'large' | 'big
 enum class SemanticColor {
     red, orange, yellow, olive, green, teal, blue, violet, purple, pink, brown, grey, black
 }
+
+@Suppress("EnumEntryName")
+enum class SemanticSizes {
+    mini, tiny, small, medium, large, big, huge, massive
+}
+
+@Suppress("EnumEntryName")
+enum class SemanticIconSize {
+    mini, tiny, small, large, big, huge, massive
+}
+
+@Suppress("EnumEntryName")
+enum class SemanticSegmentSize {
+    mini, tiny, small, large, big, huge, massive
+}
