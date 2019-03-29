@@ -26,3 +26,12 @@ typealias IconSizeProp = String //'mini' | 'tiny' | 'small' | 'large' | 'big' | 
 typealias SemanticShorthandContent = ReactElement
 
 typealias SegmentSizeProp = String // 'mini' | 'tiny' | 'small' | 'large' | 'big' | 'huge' | 'massive'
+
+/**
+ * use like
+ * attrs.color = SemanticColor.red.name
+ */
+@Suppress("EnumEntryName")
+enum class SemanticColor {
+    red, orange, yellow, olive, green, teal, blue, violet, purple, pink, brown, grey, black
+}
